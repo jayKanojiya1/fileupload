@@ -1,0 +1,42 @@
+1. What is PHP and what is it used for?
+PHP is a server-side scripting language that is used for web development. 
+It is used to create dynamic websites and web applications.
+
+2. What are the features of PHP?
+PHP supports various databases (MySQL, Oracle, etc.),
+has in-built support for session management,
+provides various mathematical functions and regular expression functions, 
+and supports the creation of dynamic images.
+
+3. What is the difference between PHP and HTML?
+HTML is a markup language used to structure and display content on the web,
+while PHP is a server-side scripting language used to add dynamic functionality to a website.
+
+4. What is a PHP session and how does it work?
+A PHP session is a way to store information on the server about the user and their activity on the website. 
+It uses a unique session ID to identify the user and the information is stored on the 
+server for the duration of the session.
+
+5. How do you connect to a database in PHP?
+PHP provides the mysql_connect() function to connect to a MySQL database. 
+The function requires the database host name, username, and password to connect to the database.
+
+6 .What is a PHP array and how is it used?
+A PHP array is a variable that can store multiple values of different data types. 
+It is used to store and retrieve data in an organized way.
+
+7. What is the difference between single quotes and double quotes in PHP?
+Single quotes are faster than double quotes because they are not parsed for variables.
+However, double quotes allow you to include variables within the string, while single quotes do not.
+
+8. What is the use of the 'isset' function in PHP?
+The 'isset' function in PHP is used to check if a variable has been set or not.
+It returns true if the variable is set and false if it is not.
+
+9. What is the use of the 'include' and 'require' functions in PHP?
+ The 'include' and 'require' functions are used to include external files in a PHP script. 
+'Require' will stop the execution of the script if the file is not found, while 'include' will produce a warning but continue execution.
+
+
+10. What is the difference between the 'include' and 'require_once' functions in PHP?
+The 'include' function will include the specified file each time it is called, while the 'require_once' function will include the file only once. If the file has already been included, 'require_once' will not include it again.
